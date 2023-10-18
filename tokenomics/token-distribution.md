@@ -14,5 +14,5 @@ description: 'WIP : Currently work in progress, subject to change as per core co
 * Advisers: 1%
 * Private sale: 17%
 * Public Sale: 3%
-* Ecosystem: 3%
+* Ecosystem: 18%
 * Airdrop: 3%

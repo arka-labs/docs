@@ -1,0 +1,44 @@
+name: Deploy to Production
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+
+jobs:
+  deploy:
+    if: github.event.pull_request.merged == true || github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Build main branch
+      uses: appleboy/ssh-action@v0.1.4
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        command_timeout: "20m"
+        script: |
+          set -e
+          cd ~/production-docs/docs
+          rm -rf .vitepress/dist
+          git pull origin main
+          npm run docs:build
+
+    - name: Deploy main branch
+      uses: appleboy/ssh-action@v0.1.4
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        command_timeout: "20m"
+        script: |
+          cd ~/production-docs/docs/.vitepress/dist
+          sudo rm -rf /var/www/production-docs/*
+          sudo cp -r * /var/www/production-docs/
+          sudo systemctl restart nginx

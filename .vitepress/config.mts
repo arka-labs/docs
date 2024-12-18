@@ -42,7 +42,11 @@ export default defineConfig({
             collapsed: false,
             items: [
               {
-                text: "What is Arka Network?",
+                text: "Sovereign AI Agents",
+                link: '/learn/sovereign-ai-agents'
+              },
+              {
+                text: "The Arka Network",
                 link: '/learn/arka-network'
               },
               {
@@ -52,61 +56,9 @@ export default defineConfig({
               { 
                 text: 'Architecture', 
                 link: '/learn/architecture', 
-              },
-              {
-                text: "Why Arka Network?",
-                link: '/learn/why-arka-network'
-              },
+              }
             ]
           },
-          // {
-          //   text: 'Core Concepts', link: '/learn/core-features',
-          //   collapsed: false,
-          //   items: [
-          
-          //     {
-          //       text: "Sovereign AI Agents",
-          //       link: '/learn/core-features#creators-toolbox'
-          //     },
-          //     {
-          //       text: "Proof of Inference",
-          //       link: '/learn/core-features#launchpad-for-ai-models'
-          //     },
-          //     {
-          //       text: "Mutli-agent consensus engine ",
-          //       link: '/learn/core-features#launchpad-for-ai-models'
-          //     },
-          //     {
-          //       text: "Agent to Agent communication ",
-          //       link: '/learn/core-features#launchpad-for-ai-models'
-          //     },
-          //     {
-          //       text: "Agent Governance ",
-          //       link: '/learn/core-features#launchpad-for-ai-models'
-          //     },
-          //   ]
-
-          // },
-          // {
-          //   text: 'Technology', 
-          //   collapsed: false,
-          //   link: '/learn/technology',
-          //   items: [
-          //     {
-          //       text: "Leveraging Cosmos SDK",
-          //       link: "/learn/technology#leveraging-cosmos-sdk"
-          //     },
-          //     {
-          //       text: "DePIN Integration",
-          //       link: "/learn/technology#decentralized-gpu-network-integration"
-          //     },
-          //     {
-          //       text: "Model Storage using IPFS",
-          //       link: "/learn/technology#decentralized-gpu-network-integration"
-          //     },
-          //   ]
-
-          // },
         ]
       },
       {

@@ -24,7 +24,7 @@ jobs:
         command_timeout: "20m"
         script: |
           set -e
-          cd ~/production-docs/
+          cd ~/production-docs
           rm -rf .vitepress/dist
           git pull origin main
           npm run docs:build

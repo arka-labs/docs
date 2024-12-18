@@ -1,9 +1,11 @@
 # Arka Network
 
-## Introduction
+<br>
+
+> **Sovereign AI agents are decentralized, autonomous, and verifiable AI systems that operate independently in decentralized ecosystems**.
+
 
 Arka Network is a layar 1 blockchain and unified platform for building, deploying, scaling, and monetizing sovereign AI agents. By combining decentralization, autonomy, and verifiability, Arka empowers builders to create AI agents that are trustless, self-governing, and monetizable—redefining the future of AI sovereignty and decentralization.
-
 
 ## Mission
 Our mission is to empower **AI sovereignty** and create a transformative **Agent Economy**, where sovereign AI agents drive innovation, unlock value, and enable freedom in a decentralized world.
@@ -11,7 +13,7 @@ Our mission is to empower **AI sovereignty** and create a transformative **Agent
 ## AI Sovereginty: 
 AI sovereignty is the principle where AI systems operate autonomously, with full ownership, control, and verifiability, free from centralized authority or intermediaries.
 
-###### Key Elements of AI Sovereignty
+#### Key Elements of AI Sovereignty
 **Autonomy**: AI systems can act, reason, and execute tasks independently without human intervention or centralized oversight.
 
 **Ownership**: Creators and users retain full control over their AI models, data, and intellectual property.

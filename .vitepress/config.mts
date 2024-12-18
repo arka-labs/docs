@@ -41,10 +41,10 @@ export default defineConfig({
             text: 'Overview',
             collapsed: false,
             items: [
-              {
-                text: "Sovereign AI Agents",
-                link: '/learn/sovereign-ai-agents'
-              },
+              // {
+              //   text: "Sovereign AI Agents",
+              //   link: '/learn/sovereign-ai-agents'
+              // },
               {
                 text: "The Arka Network",
                 link: '/learn/arka-network'

@@ -24,7 +24,7 @@ jobs:
         command_timeout: "20m"
         script: |
           set -e
-          cd ~/production-docs/docs
+          cd ~/production-docs/
           rm -rf .vitepress/dist
           git pull origin main
           npm run docs:build
@@ -38,7 +38,7 @@ jobs:
         port: ${{ secrets.PORT }}
         command_timeout: "20m"
         script: |
-          cd ~/production-docs/docs/.vitepress/dist
+          cd ~/production-docs/.vitepress/dist
           sudo rm -rf /var/www/production-docs/*
           sudo cp -r * /var/www/production-docs/
           sudo systemctl restart nginx

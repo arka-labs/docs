@@ -27,7 +27,7 @@ jobs:
         command_timeout: "20m"
         script: |
           set -e
-          cd ~/staging-docs/docs
+          cd ~/staging-docs
           rm -rf .vitepress/dist
           git pull origin staging
           npm add -D vitepress
@@ -42,7 +42,7 @@ jobs:
         port: ${{ secrets.PORT }}
         command_timeout: "20m"
         script: |
-          cd ~/staging-docs/docs/.vitepress/dist
+          cd ~/staging-docs/.vitepress/dist
           sudo rm -rf /var/www/staging-docs/*
           sudo cp -r * /var/www/staging-docs/
           sudo systemctl restart nginx

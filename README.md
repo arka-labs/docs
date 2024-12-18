@@ -1,13 +1,14 @@
----
-description: 'WIP : Currently work in progress, subject to change as per core contributors'
----
+# Welcome to the Arka Network Docs!
 
-# Welcome to the Arka Network!
+> Arka Network is a layar 1 blockchain and unified platform for building, deploying, scaling, and monetizing sovereign AI agents. By combining decentralization, autonomy, and verifiability, Arka empowers builders to create AI agents that are trustless, self-governing, and monetizable—redefining the future of AI sovereignty and decentralization.
 
-**Greetings, Arka community and enthusiasts! 🚀**
+## Run server
 
-Here, you'll dive deep into the core concepts that fuel our unique approach to AI and NFTs. Gain insights into our tokenomics, understand the innovative technology underpinning our platform, and get a glimpse of our future through our roadmap. Whether you're a developer, a content creator, or an enthusiast, Arka Network offers a realm of endless possibilities in the convergence of AI and NFTs. Embrace the journey with us!
-
-**Stay Engaged, Stay Updated!**
-
-We are continuously innovating, and this guide will evolve alongside. Keep this GitBook bookmarked and ensure you're always in the loop with what's new and exciting at Arka Network.
+Install
+```
+npm install vitepress
+```
+Run in dev mode
+```
+npm run build:dev
+```

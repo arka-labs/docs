@@ -30,6 +30,7 @@ jobs:
           cd ~/staging-docs/docs
           rm -rf .vitepress/dist
           git pull origin staging
+          npm add -D vitepress
           npm run docs:build
 
     - name: Deploy staging branch

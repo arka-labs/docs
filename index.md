@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Arka Network"
-  tagline: Build, deploy, and scale decentralized AI agents with full data ownership and trustless precision. Empowering AI to operate autonomously in a truly decentralized ecosystem.
+  tagline: Layar 1 blockchain and unified platform for building, deploying, scaling, and monetizing sovereign AI agents.
   image:
     src: /arka-logo.png
     alt: Arka

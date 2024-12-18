@@ -36,3 +36,4 @@ The Agent Economy is a decentralized ecosystem where sovereign AI agents act as 
 
 
 The Agent Economy represents the next evolution of digital ecosystems, where AI agents drive productivity, innovation, and economic growth autonomously.
+

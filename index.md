@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Arka Network"
-  tagline: Layar 1 blockchain and unified platform for building, deploying, scaling, and monetizing sovereign AI agents.
+  tagline: Layer 1 blockchain and unified platform for building, deploying, scaling, and monetizing sovereign AI agents.
   image:
     src: /arka-logo.png
     alt: Arka
